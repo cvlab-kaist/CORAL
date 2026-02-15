@@ -1,15 +1,21 @@
-<p>
-	<img src="./image/coral-final.gif" alt="preview" width="60" align="left" style="margin-right:16px; border:0; display:block;" />
-</p>
-
-# CORAL: Correspondence Alignment for Improved Virtual Try On
-
-<p align="left">
-	<a href="https://arxiv.org/abs/XXXX.XXXXX"><img src="https://img.shields.io/badge/arXiv-XXXX.XXXXX-red" alt="arXiv" style="border:0;" /></a>
-	<a href="https://cvlab-kaist.github.io/CORAL"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20Project-blue" alt="Project" style="border:0;" /></a>
-	<a href="https://huggingface.co/chimaharicox/coral_vt"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HF_ckpts-VITON--HD-orange" alt="HuggingFace VITON-HD" style="border:0;" /></a>
-	<a href="https://huggingface.co/chimaharicox/coral_dc"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HF_ckpts-DressCode-orange" alt="HuggingFace DressCode" style="border:0;" /></a>
-</p>
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td valign="top" style="padding-right:16px;" border="0">
+			<img src="./image/coral-final.gif" alt="preview" width="120" border="0" style="display:block;" />
+		</td>
+		<td valign="middle" border="0">
+			<div>
+				<h1 style="margin:0;">CORAL: Correspondence Alignment for Improved Virtual Try On</h1>
+			</div>
+			<div align="center">
+				<a href="https://arxiv.org/abs/XXXX.XXXXX"><img src="https://img.shields.io/badge/arXiv-XXXX.XXXXX-red" alt="arXiv" border="0" /></a>
+				<a href="https://cvlab-kaist.github.io/CORAL"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20Project-blue" alt="Project" border="0" /></a>
+				<a href="https://huggingface.co/chimaharicox/coral_vt"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HF_ckpts-VITON--HD-orange" alt="HuggingFace VITON-HD" border="0" /></a>
+				<a href="https://huggingface.co/chimaharicox/coral_dc"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HF_ckpts-DressCode-orange" alt="HuggingFace DressCode" border="0" /></a>
+			</div>
+		</td>
+	</tr>
+</table>
 <!-- Teaser image (PNG) - preserve original aspect ratio and limit size -->
 <div style="width:100%; margin:20px 0; text-align:center;">
 	<img src="./image/teaser.png" alt="teaser" style="width:100%; height:auto; display:block; margin:0 auto;" />
