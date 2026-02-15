@@ -1,15 +1,15 @@
-<table align="center">
+<table align="center" style="border-collapse:collapse; border:0;">
 	<tr>
-		<td valign="middle" style="padding-right:12px;">
-			<img src="./image/coral-final.gif" alt="preview" width="80" />
+		<td valign="middle" style="padding-right:12px; border:0;">
+			<img src="./image/coral-final.gif" alt="preview" width="80" style="border:0;" />
 		</td>
-		<td valign="middle">
+		<td valign="middle" style="border:0;">
 			<h1 style="margin:0;">CORAL: Correspondence Alignment for Improved Virtual Try On</h1>
 			<p style="margin:8px 0 0 0;">
-				<a href="https://arxiv.org/abs/XXXX.XXXXX"><img src="https://img.shields.io/badge/arXiv-XXXX.XXXXX-red" alt="arXiv" /></a>
-				<a href="https://cvlab-kaist.github.io/CORAL"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20Project-blue" alt="Project" /></a>
-				<a href="https://huggingface.co/chimaharicox/coral_vt"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HF_ckpts-VITON--HD-orange" alt="HuggingFace VITON-HD" /></a>
-				<a href="https://huggingface.co/chimaharicox/coral_dc"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HF_ckpts-DressCode-orange" alt="HuggingFace DressCode" /></a>
+				<a href="https://arxiv.org/abs/XXXX.XXXXX"><img src="https://img.shields.io/badge/arXiv-XXXX.XXXXX-red" alt="arXiv" style="border:0;" /></a>
+				<a href="https://cvlab-kaist.github.io/CORAL"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20Project-blue" alt="Project" style="border:0;" /></a>
+				<a href="https://huggingface.co/chimaharicox/coral_vt"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HF_ckpts-VITON--HD-orange" alt="HuggingFace VITON-HD" style="border:0;" /></a>
+				<a href="https://huggingface.co/chimaharicox/coral_dc"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HF_ckpts-DressCode-orange" alt="HuggingFace DressCode" style="border:0;" /></a>
 			</p>
 		</td>
 	</tr>
