@@ -1,31 +1,32 @@
 
-<div style="text-align:center;">
-<img src="./image/coral-final.gif" alt="preview" width="48" style="display:inline-block; vertical-align:middle; margin-right:10px;" />
-<h1 style="display:inline-block; vertical-align:middle; margin:0;">CORAL: Correspondence Alignment for Improved Virtual Try On</h1>
 
-<div style="margin-top:8px;">
-<a href="https://arxiv.org/abs/XXXX.XXXXX"><img src="https://img.shields.io/badge/arXiv-XXXX.XXXXX-red" alt="arXiv" /></a>
-<a href="https://cvlab-kaist.github.io/CORAL" style="margin-left:8px;"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20Project-blue" alt="Project" /></a>
+<h1 style="text-align:center; display:flex; align-items:center; justify-content:center; gap:12px; margin:0 0 0px 0; flex-wrap:wrap;">
+	<img src="./image/coral-final.gif" alt="preview" width="30" style="display:inline-block; vertical-align:middle;" />
+	<span style="display:inline-block; vertical-align:middle; max-width:70%; word-break:break-word; flex:1 1 0; text-align:center;">CORAL: Correspondence Alignment for Improved Virtual Try On</span>
+</h1>
+
+<div style="text-align:center; margin-top:8px;">
+	<a href="https://arxiv.org/abs/XXXX.XXXXX"><img src="https://img.shields.io/badge/arXiv-XXXX.XXXXX-red" alt="arXiv" /></a>
+	<a href="https://cvlab-kaist.github.io/CORAL" style="margin-left:8px;"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20Project-blue" alt="Project" /></a>
 	<a href="https://huggingface.co/chimaharicox/coral_vt" style="margin-left:8px;"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HF_ckpts-VITON--HD-orange" alt="HuggingFace VITON-HD" /></a>
 	<a href="https://huggingface.co/chimaharicox/coral_dc" style="margin-left:8px;"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HF_ckpts-DressCode-orange" alt="HuggingFace DressCode" /></a>
 </div>
-</div>
-<!-- Teaser image (PNG) -->
-<div style="width:100%; margin:20px 0">
-	<img src="./image/teaser.png" alt="teaser" style="width:100%; height:520px; object-fit:contain;" />
+<!-- Teaser image (PNG) - preserve original aspect ratio and limit size -->
+<div style="width:100%; margin:20px 0; text-align:center;">
+	<img src="./image/teaser.png" alt="teaser" style="width:100%; height:auto; display:block; margin:0 auto;" />
 </div>
 
 # <h1 style=" margin-bottom:16px;">🎤 Intro</h1>
 We introduce CORrespondence ALignment (CORAL), which explicitly enhances person–garment correspondences by improving query–key matching in the full 3D attention of the DiT. For more details and results, please visit our [project page](https://cvlab-kaist.github.io/CORAL)!
 
 
-<h1 style="margin-top:36px; margin-bottom:12px;">🔥 TODO</h1>
-<div style="padding:8px 0; color:#ffffff;">
-<ul style="list-style:none; padding:0; margin:0;">
-    <li style="margin:10px 0; font-size:16px;">☑️ Inference Code Release</li>
+<h1 style="margin-top:36px; margin-bottom:12px; text-align:center;">🔥 TODO</h1>
+<div style="padding:8px 0; color:#ffffff; text-align:center;">
+<ul style="list-style:none; padding:0; margin:0; display:inline-block; text-align:left;">
+	<li style="margin:10px 0; font-size:16px;">☑️ Inference Code Release</li>
 	<li style="margin:10px 0; font-size:16px;">☑️ Checkpoints for VITON-HD, DressCode Release</li>
 	<li style="margin:10px 0; font-size:16px;">⬜ HuggingFace🤗 Demo Release</li>
-    <li style="margin:10px 0; font-size:16px;">⬜ Training Code Release</li>
+	<li style="margin:10px 0; font-size:16px;">⬜ Training Code Release</li>
 </ul>
 </div>
 
