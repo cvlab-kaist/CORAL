@@ -1,9 +1,10 @@
+/* github page template inspired by https://hjrphoebus.github.io/X-Dub/ */
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="visual dubbing, lip sync, diffusion transformer, video editing, generative ai">
+    <meta name="keywords" content="video editing, generative ai">
     
     <title>CORAL: Correspondence Alignment for Improved Virtual Try-On</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -90,7 +91,6 @@
 
         .main-video video { width: 100%; max-width: 1000px; border-radius: 0; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15); }
         
-        /* Features Grid - 原内容还原 */
         .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 30px; margin-top: 40px; }
         .feature-card { background: #f8f9fa; padding: 30px; border-radius: 0; text-align: center; transition: transform 0.3s ease; border: 1px solid #eee; }
         .feature-card:hover { transform: translateY(-5px); background: #fff; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
@@ -154,7 +154,6 @@
 
         /* Performance Gains (Baseline) badge 위치 */
         .result-set[data-group="perf"] .compare-badge {
-            /* 개별 before/after에 직접 지정 */
         }
         .result-set[data-group="perf"] .compare-badge.before {
             left: 2.0rem !important;
@@ -1273,10 +1272,9 @@
             
             <div class="links">
                 <a href="https://arxiv.org/abs/2512.25066" class="link-btn"><i class="fas fa-file-pdf"></i> arXiv</a>
-                <a href="https://github.com/hjrPhoebus/X-Dub" class="link-btn"><i class="fab fa-github"></i> Code (Working)</a>
+                <a href="https://github.com/cvlab-kaist/CORAL" class="link-btn"><i class="fab fa-github"></i> Code (Working)</a>
             </div>
 
-            <!-- 新增开源准备提示 -->
             <div style="margin-top: 25px; font-size: 0.95rem; color: #F57799; background: rgba(255, 255, 255, 0.95); display: inline-block;
             padding: 12px 25px; 
             border-radius: 12px; 
