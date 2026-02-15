@@ -1,5 +1,5 @@
 <p>
-	<img src="./image/coral-final.gif" alt="preview" width="120" align="left" style="margin-right:16px; border:0; display:block;" />
+	<img src="./image/coral-final.gif" alt="preview" width="60" align="left" style="margin-right:16px; border:0; display:block;" />
 </p>
 
 # CORAL: Correspondence Alignment for Improved Virtual Try On
