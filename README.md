@@ -1,16 +1,19 @@
-
-
-<h1 style="text-align:center; display:flex; align-items:center; justify-content:center; gap:12px; margin:0 0 0px 0; flex-wrap:wrap;">
-	<img src="./image/coral-final.gif" alt="preview" width="30" style="display:inline-block; vertical-align:middle;" />
-	<span style="display:inline-block; vertical-align:middle; max-width:70%; word-break:break-word; flex:1 1 0; text-align:center;">CORAL: Correspondence Alignment for Improved Virtual Try On</span>
-</h1>
-
-<div style="text-align:center; margin-top:8px;">
-	<a href="https://arxiv.org/abs/XXXX.XXXXX"><img src="https://img.shields.io/badge/arXiv-XXXX.XXXXX-red" alt="arXiv" /></a>
-	<a href="https://cvlab-kaist.github.io/CORAL" style="margin-left:8px;"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20Project-blue" alt="Project" /></a>
-	<a href="https://huggingface.co/chimaharicox/coral_vt" style="margin-left:8px;"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HF_ckpts-VITON--HD-orange" alt="HuggingFace VITON-HD" /></a>
-	<a href="https://huggingface.co/chimaharicox/coral_dc" style="margin-left:8px;"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HF_ckpts-DressCode-orange" alt="HuggingFace DressCode" /></a>
-</div>
+<table align="center">
+	<tr>
+		<td valign="middle" style="padding-right:12px;">
+			<img src="./image/coral-final.gif" alt="preview" width="80" />
+		</td>
+		<td valign="middle">
+			<h1 style="margin:0;">CORAL: Correspondence Alignment for Improved Virtual Try On</h1>
+			<p style="margin:8px 0 0 0;">
+				<a href="https://arxiv.org/abs/XXXX.XXXXX"><img src="https://img.shields.io/badge/arXiv-XXXX.XXXXX-red" alt="arXiv" /></a>
+				<a href="https://cvlab-kaist.github.io/CORAL"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20Project-blue" alt="Project" /></a>
+				<a href="https://huggingface.co/chimaharicox/coral_vt"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HF_ckpts-VITON--HD-orange" alt="HuggingFace VITON-HD" /></a>
+				<a href="https://huggingface.co/chimaharicox/coral_dc"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HF_ckpts-DressCode-orange" alt="HuggingFace DressCode" /></a>
+			</p>
+		</td>
+	</tr>
+</table>
 <!-- Teaser image (PNG) - preserve original aspect ratio and limit size -->
 <div style="width:100%; margin:20px 0; text-align:center;">
 	<img src="./image/teaser.png" alt="teaser" style="width:100%; height:auto; display:block; margin:0 auto;" />
