@@ -213,7 +213,7 @@ CUDA_VISIBLE_DEVICES=0 python ./inference_vton.py \
 	--data_list="/path/to/test_pair_list.txt"
 ```
 
-Before running, update the following three arguments in `CORAL/inference_vt.sh`:
+Before running, update only the following three arguments in `CORAL/inference_vt.sh`:
 
 - `--dataroot`: Set the path to the VITON-HD dataset root you downloaded [here](#1-download-viton-hd).
 - `--data_list`: Set the path to the test pair list file to use. Choose either the paired or unpaired list prepared [here](#3-test-pair-lists).
@@ -230,7 +230,7 @@ bash inference_dc.sh
 Sample `inference_dc.sh` (update paths before running):
 
 ```bash
-CUDA_VISIBLE_DEVICES=1 python ./inference_vton.py \
+CUDA_VISIBLE_DEVICES=0 python ./inference_vton.py \
 	--pretrained_model_name_or_path="black-forest-labs/FLUX.1-Fill-dev" \
 	--coral_model_path="chimaharicox/coral_dc" \
 	--weight_dtype="bf16" \
@@ -240,7 +240,7 @@ CUDA_VISIBLE_DEVICES=1 python ./inference_vton.py \
 	--dataroot="/path/to/DressCode"  \
 	--dataset_type="dc" \
 	--output_dir="/path/to/output_dir" \
-	--data_list="/path/to/test_pairs_paired_00_2.txt"
+	--data_list="/path/to/test_pairs_list.txt"
 ```
 
 Before running, update the following three arguments in `CORAL/inference_dc.sh`:
