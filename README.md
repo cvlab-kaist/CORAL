@@ -18,7 +18,7 @@
 # <h1 style=" margin-bottom:16px;">🎤 Intro</h1>
 <p><em>This is our official implementation of the paper "Correspondence Alignment for Improved Virtual Try-On" by Jiyoung Kim<sup>1</sup>, Youngjin Shin<sup>1</sup>, Siyoon Jin<sup>1</sup>, Dahyun Chung<sup>1</sup>, Jisu Nam<sup>1</sup>, Tongmin Kim<sup>1</sup>, Jongjae Park<sup>2</sup>, Hyeonwoo Kang<sup>2</sup>, Seungryong Kim<sup>1,†</sup>.</em></p>
 
-<p style="text-align:center; color:gray; margin-top:6px;"><sup>1</sup> KAIST AI &nbsp;&nbsp; <sup>2</sup> NC AI &nbsp;&nbsp; <br>† Corresponding author</p>
+<p align="center" style="color:gray; margin-top:6px;"><sup>1</sup> KAIST AI &nbsp;&nbsp; <sup>2</sup> NC AI &nbsp;&nbsp; <br>† Corresponding author</p>
 
 We introduce CORrespondence ALignment (CORAL), which explicitly enhances person–garment correspondences by improving query–key matching in the full 3D attention of the DiT. For more details and results, please visit our [project page](https://cvlab-kaist.github.io/CORAL)!
 
