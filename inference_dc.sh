@@ -1,0 +1,11 @@
+CUDA_VISIBLE_DEVICES=1 python ./inference_vton.py \
+    --pretrained_model_name_or_path="black-forest-labs/FLUX.1-Fill-dev" \
+    --coral_model_path="chimaharicox/coral_dc" \
+    --weight_dtype="bf16" \
+    --width=768 \
+    --height=1024 \
+    --seed="42" \
+    --dataroot="/path/to/DressCode"  \
+    --dataset_type="dc" \
+    --output_dir="/path/to/output_dir" \
+    --data_list="/path/to/test_pairs_list.txt"

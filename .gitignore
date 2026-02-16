@@ -1,3 +1,7 @@
 CORAL_2/
 .DS_Store
-__pycache__/
+__pycache__/# Ignore large checkpoint files
+ckpt/densepose/model_final_162be9.pkl
+ckpt/humanparsing/parsing_atr.onnx
+ckpt/humanparsing/parsing_lip.onnx
+ckpt/openpose/ckpts/body_pose_model.pth

@@ -22,7 +22,7 @@ We introduce CORrespondence ALignment (CORAL), which explicitly enhances person�
 <h1 style="margin-top:36px; margin-bottom:12px; text-align:center;">🔥 TODO</h1>
 <div style="padding:8px 0; color:#ffffff; text-align:center;">
 <ul style="list-style:none; padding:0; margin:0; display:inline-block; text-align:left;">
-	<li style="margin:10px 0; font-size:16px;">☑️ Inference Code Release</li>
+	<li style="margin:10px 0; font-size:16px;">☑️ Inference Code for VITON-HD, DressCode Release</li>
 	<li style="margin:10px 0; font-size:16px;">☑️ Checkpoints for VITON-HD, DressCode Release</li>
 	<li style="margin:10px 0; font-size:16px;">⬜ HuggingFace🤗 Demo Release</li>
 	<li style="margin:10px 0; font-size:16px;">⬜ Training Code Release</li>
