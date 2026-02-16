@@ -31,7 +31,7 @@ We introduce CORrespondence ALignment (CORAL), which explicitly enhances person�
 
 # <h1 style="margin-top:36px; margin-bottom:12px;">🛠️ Installation</h1>
 
-Prepare a conda environment and install required libraries in `requirments.txt`.
+1) Prepare a conda environment and install required libraries in `requirements.txt`.
 
 ```bash
 conda create -n coral python=3.10 -y
@@ -50,6 +50,23 @@ pip install -e .
 # Return to CORAL
 cd ../
 ```
+
+2) Download the checkpoint files for preprocessing from [here](https://drive.google.com/drive/folders/1MkFxSzJMdB8Jy-cjVHg7FfbGARRsre0Z?usp=sharing) and place them under `ckpt/` (create the directory if needed). The folder should look like this:
+
+```
+ckpt/
+├── densepose/
+│   ├── Base-DensePose-RCNN-FPN.yaml
+│   ├── densepose_rcnn_R_50_FPN_s1x.yaml
+│   └── model_final_162be9.pkl
+├── humanparsing/
+│   ├── parsing_atr.onnx
+│   └── parsing_lip.onnx
+└── openpose/
+	└── ckpts/
+		└── body_pose_model.pth
+```
+
 # <h1 style="margin-top:36px; margin-bottom:12px;">📁 Data Preparation</h1>
 
 <h2 style="margin-top:28px; margin-bottom:10px;">👚 VITON-HD</h2>
