@@ -16,6 +16,10 @@
 </div>
 
 # <h1 style=" margin-bottom:16px;">🎤 Intro</h1>
+<p><em>This is our official implementation of the paper "Correspondence Alignment for Improved Virtual Try-On" by Jiyoung Kim<sup>1</sup>, Youngjin Shin<sup>1</sup>, Siyoon Jin<sup>1</sup>, Dahyun Chung<sup>1</sup>, Jisu Nam<sup>1</sup>, Tongmin Kim<sup>1</sup>, Jongjae Park<sup>2</sup>, Hyeonwoo Kang<sup>2</sup>, Seungryong Kim<sup>1,†</sup>.</em></p>
+
+<p style="text-align:center; color:gray; margin-top:6px;"><sup>1</sup> KAIST AI &nbsp;&nbsp; <sup>2</sup> NC AI &nbsp;&nbsp; <br>† Corresponding author</p>
+
 We introduce CORrespondence ALignment (CORAL), which explicitly enhances person–garment correspondences by improving query–key matching in the full 3D attention of the DiT. For more details and results, please visit our [project page](https://cvlab-kaist.github.io/CORAL)!
 
 
@@ -181,6 +185,15 @@ Example lines for an unpaired list:
 048410_0.jpg	048647_1.jpg	0
 ```
 
+<h2 style="margin-top:28px; margin-bottom:10px;">👚 P2P Dataset</h2>
+
+<h3 style="margin-top:20px; margin-bottom:8px;">1. Download PPR10K</h3>
+
+We used the PPR10K dataset for the P2P setting in our evaluation. You can download PPR10K [here](https://github.com/csjliang/PPR10K). Apply any preprocessing required by your pipeline.
+
+<h3 style="margin-top:20px; margin-bottom:8px;">2. Test Pair Lists</h3>
+
+We provide the paired and unpaired lists used in our evaluation [here](https://drive.google.com/drive/folders/1x2H0NuHFVfubgnlGplTdBS8HcB9731rs?usp=sharing). Each line is ordered as: target person, reference image, category.
 
 # <h1 style="margin-top:36px; margin-bottom:12px;">🏃 Inference</h1>
 We provide separate inference scripts for DressCode and the VITON-HD benchmark.
