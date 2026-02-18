@@ -193,7 +193,7 @@ Example lines for an unpaired list:
 We used the PPR10K dataset for the P2P setting in our evaluation. You can download PPR10K [here](https://github.com/csjliang/PPR10K). 
 
 <h3 style="margin-top:20px; margin-bottom:8px;">2. Preprocessed Files</h3>
-ppr10k does not include person-specific clothing or agnostic masks, so we perform preprocessing to generate them. We prepared the clothing and agnostic masks used in our evaluation, but cannot redistribute those masks due to licensing restrictions. Instead, we will release the preprocessing code shortly.
+PPR10K does not provide clothing masks or agnostic masks for person images, so preprocessing is required. We are willing to share the clothing masks and agnostic masks used in our evaluation; however, we cannot publicly redistribute them due to the dataset’s licensing terms. Instead, we will release the preprocessing code shortly—thank you for your patience🙏!
 <h3 style="margin-top:20px; margin-bottom:8px;">3. Test Pair Lists</h3>
 
 We provide the paired and unpaired lists used in our evaluation [here](https://drive.google.com/drive/folders/1x2H0NuHFVfubgnlGplTdBS8HcB9731rs?usp=sharing). Each line is ordered as: target person, reference image, category.
