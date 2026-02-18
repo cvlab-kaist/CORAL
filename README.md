@@ -28,6 +28,7 @@ We introduce CORrespondence ALignment (CORAL), which explicitly enhances person�
 <ul style="list-style:none; padding:0; margin:0; display:inline-block; text-align:left;">
 	<li style="margin:10px 0; font-size:16px;">☑️ Inference Code for VITON-HD, DressCode Release</li>
 	<li style="margin:10px 0; font-size:16px;">☑️ Checkpoints for VITON-HD, DressCode Release</li>
+	<li style="margin:10px 0; font-size:16px;">⬜ Inference Code & Preprocess Code for P2P Setting Release</li>
 	<li style="margin:10px 0; font-size:16px;">⬜ HuggingFace🤗 Demo Release</li>
 	<li style="margin:10px 0; font-size:16px;">⬜ Training Code Release</li>
 </ul>
@@ -189,9 +190,11 @@ Example lines for an unpaired list:
 
 <h3 style="margin-top:20px; margin-bottom:8px;">1. Download PPR10K</h3>
 
-We used the PPR10K dataset for the P2P setting in our evaluation. You can download PPR10K [here](https://github.com/csjliang/PPR10K). Apply any preprocessing required by your pipeline.
+We used the PPR10K dataset for the P2P setting in our evaluation. You can download PPR10K [here](https://github.com/csjliang/PPR10K). 
 
-<h3 style="margin-top:20px; margin-bottom:8px;">2. Test Pair Lists</h3>
+<h3 style="margin-top:20px; margin-bottom:8px;">2. Preprocessed Files</h3>
+ppr10k does not include person-specific clothing or agnostic masks, so we perform preprocessing to generate them. We prepared the clothing and agnostic masks used in our evaluation, but cannot redistribute those masks due to licensing restrictions. Instead, we will release the preprocessing code shortly.
+<h3 style="margin-top:20px; margin-bottom:8px;">3. Test Pair Lists</h3>
 
 We provide the paired and unpaired lists used in our evaluation [here](https://drive.google.com/drive/folders/1x2H0NuHFVfubgnlGplTdBS8HcB9731rs?usp=sharing). Each line is ordered as: target person, reference image, category.
 
@@ -263,3 +266,5 @@ Before running, update the following three arguments in `CORAL/inference_dc.sh`:
 - `--output_dir`: Set where inference outputs will be saved.
 
 
+## 👚 P2P Dataset
+Inference code for P2P setting on PPR10K would be released shortly—thank you for your patience🙏!
