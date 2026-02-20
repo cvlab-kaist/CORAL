@@ -20,6 +20,24 @@
         }
         .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
 
+
+		.bibtex-box {
+					background: #f2f2f2;
+					border: 1px solid #e1e1e1;
+					border-radius: 12px;
+					padding: 16px 18px;
+					margin: 10px auto 0;
+					overflow-x: auto;
+					}
+		.bibtex-box pre {
+						margin: 0;
+						font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+						  "Liberation Mono", "Courier New", monospace;
+						font-size: 13px;
+						line-height: 1.45;
+						color: #222;
+						white-space: pre;
+						}
         /* Header */
         .header {
             background: rgba(255, 255, 255, 0.95);
@@ -3351,13 +3369,27 @@
             </div>
 
             <div class="section" style="border-bottom: none;">
-                <h2 class="section-title">Citation</h2>
-                <p class="narrow-left">
-                </p>
-                <p class="narrow-left" style="margin-top: 10px; font-weight: 600; color: #444;">
-                    If you have any questions, please contact: <a href="mailto:kplove01@kaist.ac.kr" style="color: #6a476d;">kplove01@kaist.ac.kr</a>
-                </p>
-            </div>
+				<h2 class="section-title">Citation</h2>
+				
+				<div class="narrow-left">
+					<div class="bibtex-box">
+					  <pre>@misc{kim2026coralcorrespondencealignmentimproved,
+					  title={CORAL: Correspondence Alignment for Improved Virtual Try-On}, 
+					  author={Jiyoung Kim and Youngjin Shin and Siyoon Jin and Dahyun Chung and Jisu Nam and Tongmin Kim and Jongjae Park and Hyeonwoo Kang and Seungryong Kim},
+					  year={2026},
+					  eprint={2602.17636},
+					  archivePrefix={arXiv},
+					  primaryClass={cs.CV},
+					  url={https://arxiv.org/abs/2602.17636}, 
+					}</pre>
+					</div>
+				</div>
+				
+				<p class="narrow-left" style="margin-top: 10px; font-weight: 600; color: #444;">
+				If you have any questions, please contact:
+				<a href="mailto:kplove01@kaist.ac.kr" style="color: #6a476d;">kplove01@kaist.ac.kr</a>
+				</p>
+				</div>
 
         </div>
     </div>
