@@ -5,6 +5,7 @@
 # CORAL: Correspondence Alignment for Improved Virtual Try On
 
 <p align="center">
+	<a href="https://arxiv.org/abs/2602.17636"><img src="https://img.shields.io/badge/NeurIPS-2026-8A2BE2" alt="NeurIPS 2026" style="border:0;" /></a>
 	<a href="https://arxiv.org/abs/2602.17636"><img src="https://img.shields.io/badge/arXiv-2602.17636-red" alt="arXiv" style="border:0;" /></a>
 	<a href="https://cvlab-kaist.github.io/CORAL"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20Project-blue" alt="Project" style="border:0;" /></a>
 	<a href="https://huggingface.co/chimaharicox/coral_vt"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HF_ckpts-VITON--HD-orange" alt="HuggingFace VITON-HD" style="border:0;" /></a>
@@ -14,6 +15,10 @@
 <div style="width:100%; margin:20px 0; text-align:center;">
 	<img src="./image/teaser.png" alt="teaser" style="width:100%; height:auto; display:block; margin:0 auto;" />
 </div>
+
+# <h1 style="margin-top:36px; margin-bottom:12px;">📰 News</h1>
+
+- **[2026.09]** 🎉 CORAL is accepted to **NeurIPS 2026**!
 
 # <h1 style=" margin-bottom:16px;">🎤 Intro</h1>
 <p><em>This is our official implementation of the paper "Correspondence Alignment for Improved Virtual Try-On" by Jiyoung Kim<sup>1</sup>, Youngjin Shin<sup>1</sup>, Siyoon Jin<sup>1</sup>, Dahyun Chung<sup>1</sup>, Jisu Nam<sup>1</sup>, Tongmin Kim<sup>1</sup>, Jongjae Park<sup>2</sup>, Hyeonwoo Kang<sup>2</sup>, Seungryong Kim<sup>1,†</sup>.</em></p>
@@ -268,3 +273,19 @@ Before running, update the following three arguments in `CORAL/inference_dc.sh`:
 
 ## 👚 P2P Dataset
 Inference code for P2P setting on PPR10K would be released shortly—thank you for your patience🙏!
+
+# <h1 style="margin-top:36px; margin-bottom:12px;">📝 Citation</h1>
+
+If you find CORAL useful for your research, please consider citing:
+
+```bibtex
+@inproceedings{kim2026coral,
+  title     = {CORAL: Correspondence Alignment for Improved Virtual Try-On},
+  author    = {Jiyoung Kim and Youngjin Shin and Siyoon Jin and Dahyun Chung and Jisu Nam and Tongmin Kim and Jongjae Park and Hyeonwoo Kang and Seungryong Kim},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2026},
+  eprint    = {2602.17636},
+  archivePrefix = {arXiv},
+  url       = {https://arxiv.org/abs/2602.17636}
+}
+```
